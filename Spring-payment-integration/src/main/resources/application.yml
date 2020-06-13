@@ -1,0 +1,17 @@
+ paytm.payment:
+      sandbox:
+            merchantId:
+            merchantKey:
+           
+            website: WEBSTAGING
+       
+            paytmUrl:  https://securegw-stage.paytm.in/order/process
+            callbackUrl: http://localhost:8080/pgresponse
+            details:
+              MID: ${paytm.payment.sandbox.merchantid}
+           
+              WEBSITE: ${paytm.payment.sandbox.website}
+              CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}
+                
+
+                

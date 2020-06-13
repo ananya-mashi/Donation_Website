@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
+<title>HelpingHandsToSmilesFoundationIndia </title>
+<link href="https://lh3.googleusercontent.com/proxy/a9u9jCBgCgbyT7sIE7W8rEjhIkYEO5a1tP148SWLdttQqS6JnnxiBDuepsYdrZKflTT
+8blTKFujg2l-j725ap3XQMrNMWhuXh7eAGXg5YbxZpRotmPeGT9ErqBlPy0vLvVGl-mtUVlW_5xKFAcczsLUG5lrkx8Fl"
+ rel="icon">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style type="text/css">body{
+background:#98AFC7;}</style>
+
+</head>
+<body>
+<form method="post" action="/pgredirect"  onsubmit="return Validation()">
+    <div class="container register">
+     <div align="right" style="font-size:5.8em;"> 
+									<a type="button" class="btn btn-primary btn-lg " href="/">Back</a>
+									</div>
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                <h3>Welcome</h3>
+                <p>A donation is a gift for charity. <br>Give a hand to make better world.<br>Your small contribution can make a big change in someone's life</p>
+            </div>
+            <div class="col-md-9 register-right">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Welcome to Payment Page</h3>
+                        <div class="row register-form">
+                            <div class="col-md-10">
+                              
+                             
+                                 <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email_Id"  value=""
+                                         required  name="Email_Id"/>
+                                </div>
+                                  <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Mobile number"  name="Mobile"  required />
+                                </div>
+                              
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Amount" value=""
+                                           name="TXN_AMOUNT" required/>
+                                </div>
+                                <!--  <input type="submit" class="btnRegister"  value="Pay with Paytm"/>   -->
+                                <button type="submit" class="btnRegister" style="align : center">Pay Now</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+<footer style="text-align:center;width:100%;left:0; bottom:0;position:fixed; background-color:black; color:white;">
+
+
+  <div class="">
+  © 2020 Copyright: HelpingHandsToSmilesFoundationIndia <a href="https://www.linkedin.com/in/ananya-mashiwal/"
+   class="fa fa-linkedin" style=" background: #125688;
+  color: white; padding:4px;
+  font-size:8px;
+  
+  text-align: center;"></a> 
+  </div>
+
+
+</footer>
+</body>
+</html>
